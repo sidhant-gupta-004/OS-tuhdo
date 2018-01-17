@@ -1,15 +1,15 @@
 # OS-tuhdo
 Learning and implementing a basic operating system. ;)
 
-# Notes
-## To Read
-### Part 1
+## Notes
+### To Read
+#### Part 1
 + Chapter 2: From hardware to software
 + Chapter 3: Example computer model
 + Chapter 5: ELF
 + Chapter 6: GDB, read for kicks.
 
-### Parts 2 & 3
+#### Parts 2 & 3
 + Everything
 
 ## Main Reference
