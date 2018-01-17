@@ -13,7 +13,7 @@ Learning and implementing a basic operating system. ;)
 + Everything
 
 ## Acknowledgements
-Intel 64 and IA-32 Architectures Software Development Manual The following documents have been referred to and are included as part of this repository for learning purposes:
+The following documents have been referred to and are included as part of this repository for learning purposes:
 + Intel 64 and IA-32 Architectures Software Development Manual
 + System V Application Binary Interface
 + Ralf Brown's Interrupt List at http://www.cs.cmu.edu/~ralf/files.html
