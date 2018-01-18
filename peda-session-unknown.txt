@@ -1,4 +1,3 @@
 break *0x7c00
 break *0x7c36
-break *0x57e
 

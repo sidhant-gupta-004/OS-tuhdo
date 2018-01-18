@@ -3,9 +3,9 @@
 
 bits 16
 
-jmp 0x78
+jmp 0x74
 
-msg db "Well, an OS is technically the software loaded by the bootloader, so looks like this is it, welcome to my kernel. :)", 0h
+msg db "Well, technically an OS is a software loaded by a bootloader, so looks like this is it, welcome to my kernel. :)", 0h
 len equ $ - msg
 
 mov ah, 0x03	; ah: routine for GET CURSOR

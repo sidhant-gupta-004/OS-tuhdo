@@ -12,6 +12,14 @@ Learning and implementing a basic operating system. ;)
 #### Parts 2 & 3
 + Everything
 
+## Layout
+The layout of this project is categorised as:
++ Section (bootloader, os, etc.)
++ Source code
++ data writeable to the disk images
+
+Hence, there are currently, the sections present as given above. Hope it is intuitive enough.
+
 ## Main Reference
 The book OS-tuhdo (https://tuhdo.github.io/os01/) serves as the main learning resource for this project.
 
