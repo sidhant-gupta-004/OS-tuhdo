@@ -27,4 +27,5 @@ The book OS-tuhdo (https://tuhdo.github.io/os01/) serves as the main learning re
 The following documents have been referred to and are included as part of this repository for learning purposes:
 + Intel 64 and IA-32 Architectures Software Development Manual
 + System V Application Binary Interface
-+ Ralf Brown's Interrupt List at http://www.cs.cmu.edu/~ralf/files.html
++ Ralf Brown's Interrupt List: http://www.cs.cmu.edu/~ralf/files.html
++ GNU Make official manual: https://www.gnu.org/software/make/manual/
