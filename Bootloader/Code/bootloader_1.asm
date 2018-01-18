@@ -21,7 +21,7 @@ printString:
 	mov ah, 0x03			; ah: value for GET CURSOR option
 	mov bh, 0x00			; bh: page number, usually 0
 
-	int 0x80			; Gets the cursor position and stores it inside the dh and dl registers
+	int 0x10			; Gets the cursor position and stores it inside the dh and dl registers
 
 	mov bp, msg			; bp: the starting of the string msg, from where the program has to start printing
 	mov ax, 0x00			; ax: setting ax to 0

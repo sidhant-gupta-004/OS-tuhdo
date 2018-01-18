@@ -1,0 +1,3 @@
+all: bootloader bootdisk
+
+bootloader:

@@ -11,3 +11,5 @@ That is why, in fact, we sometimes notice multiple boot processes like boot0, bo
 ##Questions
 + How does the bootloader itself start? We know that an OS starts when the bootloader loads it onto main memory. But how does this bootloader itself start in the first place?
 + Making a sector is a very unstable process. The slightest change screws up something and the sector no longer gets created. Moreover, the problem is always solved when I move around the options for the `dd` command while making the sectors. The `dd` command has been used throughout to create these sectors. What could be the possible solutions? And what exactly is the problem?
++ Why is the data being loaded at 0x500 offset when we are storing it in a 0x50 byte buffer?
++ How can we access the address of where the sector is loaded? And why is the memory like msg assigned 0x3 instead of 0x503? (from example.asm)
