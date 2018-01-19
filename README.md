@@ -12,16 +12,19 @@ Learning and implementing a basic operating system. ;)
 #### Parts 2 & 3
 + Everything
 
+#### Linking and Loading
+We use symbols (like functions in C) to tell a program to execute certain instructions present somewhere else in memory. This is done often in programming. Relocation is the process that replaces these symbols (the address of the function usually) with the actual "symbolic definition" of the code we want executed.
+
 ## Layout
 The layout of this project is categorised as:
 + Section (bootloader, os, etc.)
 + Source code
-+ data writeable to the disk images
++ Data writeable to the disk images
 
 Hence, there are currently, the sections present as given above. Hope it is intuitive enough.
 
 ## Main Reference
-The book OS-tuhdo (https://tuhdo.github.io/os01/) serves as the main learning resource for this project.
+The book OS-tuhdo (https://tuhdo.github.io/os01/) serves as the main learning resource for this project. I would like to really thank the author for putting together such a wonderful resource which allows anyone to learn and build something as complex as an OS from scratch.
 
 ## Acknowledgements
 The following documents have been referred to and are included as part of this repository for learning purposes:
