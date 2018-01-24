@@ -38,7 +38,7 @@ We reach the final executable in the following steps:
 
 Please note that steps 1-3 take place separately for each function of a program (here `main` and `add`). Also, if you are interested in seeing these steps take place yourself, just run `gcc` with the `-v` option.
 
-Here, let us take a look at the files `main.o` and `add.o`. These are assembly code files which contain different sections for code and data (like global variables, unintialised variables, etc.). An assembly code file (called object file hereonafter) has these 2 features:
+Here, let us take a look at the files `main.o` and `add.o`. These are assembly code files which contain different sections for code and data (like global variables, unintialised variables, etc.). An assembly code file (called object file hereinafter) has these 2 features:
 
 1. The object files have *symbol references*. Each "*symbol*" is associated with a function, or a data variable.
 2. The code and data all commence at address 0 - this "raw" file cannot be executed yet, because the program does not have a definite address to start at.

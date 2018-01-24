@@ -13,7 +13,7 @@ Learning and implementing a basic operating system. ;)
 + Everything
 
 #### Linking and Loading
-We use symbols (like functions in C) to tell a program to execute certain instructions present somewhere else in memory. This is done often in programming. Relocation is the process that replaces these symbols (the address of the function usually) with the actual "symbolic definition" of the code we want executed.
+We use symbols (like functions in C) to tell a program to execute certain instructions present somewhere else in memory. This is done often in programming. *Symbol resolution* is the process that replaces these symbols (the address of the function usually) with the actual "symbolic definition" of the code we want executed.
 
 ## Layout
 The layout of this project is categorised as:
