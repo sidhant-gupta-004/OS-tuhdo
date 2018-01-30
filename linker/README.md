@@ -60,16 +60,16 @@ There are 3 types of linkers:
 The following is the table structure of an ELF (Executable and Linkable Files). These are the object files in most Linux systems.
 
 |-----------------------																			|
-| ELF Header 		|16 bytes; Defines word size and byte ordering of the generating system											|
-|.text       		|Executable code in the binary																|
-|.rodata     		|Read-only data, like constant strings															|
-|.data       		|Initialized global and static variables (local variables are maintained at runtime in the stack)							|
-|.bss        		|Uninitialized global and static varaibles. Contains the symbol definitions as defined above								|
-|.symtab     		|Symbol table: contains information about functions and global variables in the program									|
-|.rel.text   		|Locations in the .text section which need to be replaced like references to functions and global variables						|
-|.rel.data   		|Locations in the .data section which need to be replaced like global variables assigned to the addresses of other global variables or functions.	|
-|.debug      		|Contains entries for local and global variables, source code and typedefs										|
-|.line       		|Mapping between line numbers in the source code and the corresponding machine code									|
-|.strtab     		|Contains strings of names of symbols in the .symtab section												|
-|Section header table	|Contains the size entry for each entry in the table													|
+| ELF Header 		| 16 bytes; Defines word size and byte ordering of the generating system										|
+| .text       		| Executable code in the binary																|
+| .rodata     		| Read-only data, like constant strings															|
+| .data       		| Initialized global and static variables (local variables are maintained at runtime in the stack)							|
+| .bss        		| Uninitialized global and static varaibles. Contains the symbol definitions as defined above								|
+| .symtab     		| Symbol table: contains information about functions and global variables in the program								|
+| .rel.text   		| Locations in the .text section which need to be replaced like references to functions and global variables						|
+| .rel.data   		| Locations in the .data section which need to be replaced like global variables assigned to the addresses of other global variables or functions.	|
+| .debug      		| Contains entries for local and global variables, source code and typedefs										|
+| .line       		| Mapping between line numbers in the source code and the corresponding machine code									|
+| .strtab     		| Contains strings of names of symbols in the .symtab section												|
+| Section header table	| Contains the size entry for each entry in the table													|
 |-----------------------																			|
