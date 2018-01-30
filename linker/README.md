@@ -59,6 +59,7 @@ There are 3 types of linkers:
 
 The following is the table structure of an ELF (Executable and Linkable Files). These are the object files in most Linux systems.
 
+|ELF Structure																					|
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ELF Header 		| 16 bytes; Defines word size and byte ordering of the generating system										|
 | .text       		| Executable code in the binary																|
@@ -72,4 +73,3 @@ The following is the table structure of an ELF (Executable and Linkable Files). 
 | .line       		| Mapping between line numbers in the source code and the corresponding machine code									|
 | .strtab     		| Contains strings of names of symbols in the .symtab section												|
 | Section header table	| Contains the size entry for each entry in the table													|
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
