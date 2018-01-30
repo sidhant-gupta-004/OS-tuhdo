@@ -50,3 +50,26 @@ This is where linkers come in.
 
 TL; DR:
 Object files are a raw collection of bytes. A linker links multiple object files together and gives them definite run-time locations in memory.
+
+### Object Files
+There are 3 types of linkers:
++ Relocatable Object File: an object file where binary data and code is arranged such that the file can be combined with other object files to produce an executable object file.
++ Executable Object File: an object file where binary data and code is arranged such that the file can be directly executed.
++ Shared Object File: A relocatable object file which can be loaded "dynamically", at either load time or runtume.
+
+The following is the table structure of an ELF (Executable and Linkable Files). These are the object files in most Linux systems.
+
+|-----------------------																			|
+| ELF Header 		|16 bytes; Defines word size and byte ordering of the generating system											|
+|.text       		|Executable code in the binary																|
+|.rodata     		|Read-only data, like constant strings															|
+|.data       		|Initialized global and static variables (local variables are maintained at runtime in the stack)							|
+|.bss        		|Uninitialized global and static varaibles. Contains the symbol definitions as defined above								|
+|.symtab     		|Symbol table: contains information about functions and global variables in the program									|
+|.rel.text   		|Locations in the .text section which need to be replaced like references to functions and global variables						|
+|.rel.data   		|Locations in the .data section which need to be replaced like global variables assigned to the addresses of other global variables or functions.	|
+|.debug      		|Contains entries for local and global variables, source code and typedefs										|
+|.line       		|Mapping between line numbers in the source code and the corresponding machine code									|
+|.strtab     		|Contains strings of names of symbols in the .symtab section												|
+|Section header table	|Contains the size entry for each entry in the table													|
+|-----------------------																			|
